@@ -1,20 +1,27 @@
-## User Story
-AS a freelance web developer
-I WANT to generate a simple logo for my projects
-SO THAT I don't have to pay a graphic designer
+# SVG Logo Maker
 
-## Acceptance Criteria
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for text
-THEN I can enter up to three characters
-WHEN I am prompted for the text color
-THEN I can enter a color keyword (OR a hexadecimal number)
-WHEN I am prompted for a shape
-THEN I am presented with a list of shapes to choose from: circle, triangle, and square
-WHEN I am prompted for the shape's color
-THEN I can enter a color keyword (OR a hexadecimal number)
-WHEN I have entered input for all the prompts
-THEN an SVG file is created named `logo.svg`
-AND the output text "Generated logo.svg" is printed in the command line
-WHEN I open the `logo.svg` file in a browser
-THEN I am shown a 300x200 pixel image that matches the criteria I entered
+SVG Logo Maker is a command-line application that allows users to create simple SVG logos for their projects, saving them the cost of hiring a graphic designer.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Usage
+
+1. Run the application with npm start
+2. Follow the prompts to input the text, text color, shape, and shape color for your logo
+3. The application will generate a file named `logo.svg` in the `examples/` directory
+4. Open the `logo.svg` file in a browser to see your logo
+
+Run the following command to execute the tests using Jest:
+npm test
+
+## Built With
+
+- [Node.js](https://nodejs.org/)
+- [Inquirer.js](https://github.com/SBoudrias/Inquirer.js/)
+- [Jest](https://jestjs.io/)
+
+## License
+
+This project is licensed under the MIT License.
