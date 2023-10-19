@@ -3,7 +3,7 @@ const fs = require('fs');
 const { Triangle, Circle, Square } = require('./lib/shapes');
 
 inquirer 
-    .createPromptModule([
+    .prompt([
         {
             type: 'input',
             name: 'text',

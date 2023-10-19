@@ -4,25 +4,24 @@
     "description": "A command-line application to generate a logo and save it as an SVG file.",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js",
-      "test": "jest"
+        "start": "node index.js",
+        "test": "jest"
     },
     "repository": {
-      "type": "git"
+        "type": "git"
     },
     "keywords": [
-      "svg",
-      "logo",
-      "nodejs",
-      "command-line"
+        "svg",
+        "logo",
+        "nodejs",
+        "command-line"
     ],
     "author": "Your Name",
     "license": "MIT",
     "dependencies": {
-      "inquirer": "^8.2.0"
+        "inquirer": "^8.2.6"
     },
     "devDependencies": {
-      "jest": "^27.4.5"
+        "jest": "^27.4.5"
     }
-  }
-  
+}
